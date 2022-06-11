@@ -1,0 +1,236 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .button {
+        display: inline-block;
+        margin: 0 5px;
+        overflow: hidden;
+        background: #2b2a2a;
+        border-radius: 30px;
+        cursor: pointer;
+        box-shadow: 0px 10px 10px rgb(0 0 0 / 10%);
+        transition: all 0.3s ease-out;
+        width: 50px;
+        height: 50px;
+        margin: 10px 25px;
+    }
+    .button.router-link-active {
+        background: #F1B317 !important;
+    }
+    .button:hover {
+        color: white;
+        background: #F1B317 !important;
+    }
+    .button:hover .icon{
+        color: white;
+        background: #F1B317 !important;
+    }
+    .button.Home:hover {
+        width: 128px;
+    }
+    .button.About:hover {
+        width: 135px;
+    }
+    
+    .button.Resume:hover {
+        width: 146px;
+    }
+    
+    .button.Portfolio:hover {
+        width: 177px;
+    }
+    
+    .button.Contact:hover {
+        width: 158px;
+    }
+    
+    .button .icon {
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        text-align: center;
+        border-radius: 50%;
+        box-sizing: border-box;
+        line-height: 50px;
+        transition: all 0.3s ease-out;
+    }
+    
+    .button:hover .icon {
+        background: #F1B317;
+    }
+    
+    .button .icon span {
+        font-size: 17px;
+        text-align: center;
+        font-weight: 500;
+        line-height: 50px;
+        transition: all 0.3s ease-out;
+        color: white;
+        margin-left: 1px;
+    }
+    
+    .button .title {
+        color: white;
+        letter-spacing: 2px;
+        font-size: 17px;
+        line-height: 53px;
+        text-transform: uppercase;
+        font-weight: 500;
+        line-height: 50px;
+    }
+    /* Md screen */
+    .button-md {
+        display: inline-block;
+        overflow: hidden;
+        background: #2b2a2a;
+        border-radius: 30px;
+        cursor: pointer;
+        box-shadow: 0px 10px 10px rgb(0 0 0 / 10%);
+        transition: all 0.3s ease-out;
+        width: 50px;
+        height: 50px;
+        margin: 10px 25px;
+        margin: 5px;
+    }
+
+    .button-md.Home:hover,
+    .button-md.About:hover,
+    .button-md.Resume:hover,
+    .button-md.Portfolio:hover,
+    .button-md.Contact:hover {
+        width: 50px;
+    }
+    .button-md.router-link-active {
+        background: #F1B317 !important;
+    }
+    .button-md:hover {
+        color: white;
+        background: #F1B317 !important;
+    }
+    .button-md:hover .icon{
+        color: white;
+        background: #F1B317 !important;
+    }
+    /* Download button */
+    .download-btn-dark {
+        overflow: hidden;
+        display: inline-block;
+        line-height: 1.4;
+        border-radius: 35px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        text-align: center;
+        cursor: pointer;
+        vertical-align: middle;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        transition: all .25s ease-in-out;
+        text-transform: uppercase;
+        text-decoration: none !important;
+        position: relative;
+        z-index: 1;
+        padding: 16px 0 16px 35px;
+        font-size: 15px;
+        font-weight: 600;
+        color: #fff;
+        background: transparent;
+        outline: none !important;
+        cursor: pointer !important;
+        border: 1px solid #ffb400;
+    }
+    
+    .download-btn-dark:before {
+        z-index: -1;
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: -1px;
+        right: 0;
+        transform: translateX(100%);
+        transition: all .3s ease-out;
+        width: 100%;
+        border-radius: 30px;
+    }
+    
+    .download-btn-dark:hover:before {
+        transform: translateX(0);
+        background: #ffb400;
+    }
+    
+    .btn-text {
+        position: relative;
+        z-index: 2;
+        transition: all .3s ease-out;
+        margin-right: 20px;
+    }
+    
+    .download-icon-dark {
+        /*padding: 25px;
+        background: #F1B317;*/
+        padding: 18px 20px;
+        background: #F1B317;
+        border-radius: 30px;
+    }
+    /* light */
+    .download-btn-light {
+        overflow: hidden;
+        display: inline-block;
+        line-height: 1.4;
+        border-radius: 35px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        text-align: center;
+        cursor: pointer;
+        vertical-align: middle;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        transition: all .25s ease-in-out;
+        text-transform: uppercase;
+        text-decoration: none !important;
+        position: relative;
+        z-index: 1;
+        padding: 16px 0 16px 35px;
+        font-size: 15px;
+        font-weight: 600;
+        color: #fff;
+        background: transparent;
+        outline: none !important;
+        cursor: pointer !important;
+        border: 1px solid #72b626;
+    }
+    
+    .download-btn-light:before {
+        z-index: -1;
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: -1px;
+        right: 0;
+        transform: translateX(100%);
+        transition: all .3s ease-out;
+        width: 100%;
+        border-radius: 30px;
+    }
+    
+    .download-btn-light:hover:before {
+        transform: translateX(0);
+        background: #72b626;
+    }
+    .download-btn-light:hover .btn-text{
+        color: white;;
+    }
+    
+    .download-icon-light {
+        /*padding: 25px;
+        background: #F1B317;*/
+        padding: 18px 20px;
+        background: #72b626;
+        border-radius: 30px;
+    }
+}
