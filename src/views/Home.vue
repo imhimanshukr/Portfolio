@@ -6,7 +6,7 @@
         <div class="mt-5">
         <a href="https://www.linkedin.com/in/himanshu2572000" target="_blank" class="mx-3"><i class="fa-brands fa-linkedin-in border-2 p-3 rounded-full bg-transparent border-para-clr dark:border-gray-400 text-para-clr dark:text-gray-400 hover:text-main-green dark:hover:text-main-yellow hover:border-main-green dark:hover:border-main-yellow"></i></a>
         <a href="https://github.com/imhimanshukr" target="_blank" class="mx-3"><i class="fa-brands fa-github border-2 p-3 rounded-full bg-transparent border-para-clr dark:border-gray-400 text-para-clr dark:text-gray-400 hover:text-main-green dark:hover:text-main-yellow hover:border-main-green dark:hover:border-main-yellow"></i></a>
-        <a href="#0" class="mx-3"><i class="fa-brands fa-instagram border-2 p-3 rounded-full bg-transparent border-para-clr dark:border-gray-400 text-para-clr dark:text-gray-400 hover:text-main-green dark:hover:text-main-yellow hover:border-main-green dark:hover:border-main-yellow"></i></a>
+        <a href="https://www.instagram.com/hms.raj/" target="_blank" class="mx-3"><i class="fa-brands fa-instagram border-2 p-3 rounded-full bg-transparent border-para-clr dark:border-gray-400 text-para-clr dark:text-gray-400 hover:text-main-green dark:hover:text-main-yellow hover:border-main-green dark:hover:border-main-yellow"></i></a>
         </div>
     </div>
 </div>
