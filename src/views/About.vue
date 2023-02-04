@@ -66,23 +66,42 @@ export default {
             isDark: Boolean
         },
         methods:{
-            async downloadPDF() {
-      try {
-        const response = await axios({
-          url: '../../Himanshu Kumar.pdf',
-          method: 'GET',
-          responseType: 'blob',
-        });
+    //         async downloadPDF() {
+    //   try {
+    //     const response = await axios({
+    //       url: '../../Himanshu Kumar.pdf',
+    //       method: 'GET',
+    //       responseType: 'blob',
+    //     });
   
-        const link = document.createElement('a');
-        link.href = URL.createObjectURL(new Blob([response.data]));
-        link.setAttribute('download', 'HimanshuKumar.pdf');
-        document.body.appendChild(link);
-        link.click();
-      } catch (error) {
-        console.error(error);
-      }
-    },
+    //     const link = document.createElement('a');
+    //     link.href = URL.createObjectURL(new Blob([response.data]));
+    //     link.setAttribute('download', 'HimanshuKumar.pdf');
+    //     document.body.appendChild(link);
+    //     link.click();
+    //   } catch (error) {
+    //     console.error(error);
+    //   }
+    // },
+    async downloadPDF() {
+  try {
+    const response = await fetch("../../Himanshu Kumar.pdf", {
+      method: "GET",
+      mode: "cors"
+    });
+
+    if (!response.ok) {
+      throw new Error("Failed to fetch PDF file");
+    }
+
+    const pdfBlob = await response.blob();
+    const pdfUrl = URL.createObjectURL(pdfBlob);
+    window.open(pdfUrl);
+  } catch (error) {
+    console.error(error);
+  }
+}
+
         }
 }
 </script>
