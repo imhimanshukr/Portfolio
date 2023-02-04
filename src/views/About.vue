@@ -4,7 +4,7 @@
     <div class="mb-10">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div class="md:pr-5">
-                <p style="line-height:2">I'm a self-taught web developer focusing on the core web fundamentals - HTML, CSS and JS. I'm experienced in frontend frameworks like Vue and React js. I write SCSS or use CSS frameworks like TailwindCSS or Bootstrap to speed up styling of my projects. I am highly motivated in expanding my horizons day by day for better performance, testing and user experience.</p>
+                <p style="line-height:2">I am a highly motivated frontend developer with a passion for creating visually appealing and user-friendly websites and web-based applications. This portfolio showcases my technical skills and experience, highlighting my ability to effectively deliver outstanding web solutions. My goal is to continue learning and growing in the field, and to work on innovative projects that push the boundaries of what's possible on the web.</p>
             </div>
             <div>
                 <h1 class="text-2xl pb-6 font-semibold text-para-clr dark:text-white">PERSONAL INFO</h1>
@@ -22,7 +22,6 @@
                         <h2 class="text-para-clr dark:text-gray-300 pb-4">Languages: <span class="text-para-clr dark:text-white">Hindi, English</span></h2>
                     </div>
                 </div>
-                <!-- <a class="download-btn-light dark:download-btn-dark" href="./HimanshuKumar.pdf" download><span class="btn-text text-para-clr dark:text-white">download cv</span> <span class="download-icon-light dark:download-icon-dark"> <i class="fa-solid fa-download"></i></span> </a> -->
                 <button class="download-btn-light dark:download-btn-dark" @click="downloadPDF"><span class="btn-text text-para-clr dark:text-white">download cv</span> <span class="download-icon-light dark:download-icon-dark"> <i class="fa-solid fa-download"></i></span> </button>
             </div>
         </div>
@@ -48,17 +47,17 @@ export default {
             whatIdo: [{
                     iconClass: 'fa-code',
                     header: 'Web Design',
-                    para: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod.'
+                    para: 'Web Design is the process of creating and planning the look, feel, and functionality of a website.'
                 },
                 {
                     iconClass: 'fa-laptop-code',
                     header: 'Web Development',
-                    para: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod.'
+                    para: 'Web development involves the technical aspects of creating and maintaining web-based app.'
                 },
                 {
                     iconClass: 'fa-shop',
                     header: 'Ecommerce',
-                    para: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod.'
+                    para: 'E-commerce website enables businesses to sell goods/services to customers via internet.'
                 },
             ]
         }
@@ -70,7 +69,7 @@ export default {
             async downloadPDF() {
       try {
         const response = await axios({
-          url: './HimanshuKumar.pdf',
+          url: '../../Himanshu Kumar.pdf',
           method: 'GET',
           responseType: 'blob',
         });

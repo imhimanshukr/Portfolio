@@ -62,7 +62,7 @@ export default {
                     tabName: "Templates",
                     projectName: 'Foodies',
                     url: "https://imhimanshukr.github.io/foodies/",
-                    thumbnail: "https://www.akirabacktoronto.com/wp-content/gallery/gallery-1/akiraback-gall1.jpg"
+                    thumbnail: "https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg"
                 },
                 {
                     tabId: 1,
@@ -90,12 +90,12 @@ export default {
                     projectName: 'Twitter Clone',
                     tabName: 'Vue Js',
                     url: "https://twitterhms.netlify.app/",
-                    thumbnail: "https://pbs.twimg.com/card_img/1529471408203776003/rxqPrwEl?format=jpg&name=600x314"
+                    thumbnail: "https://global-uploads.webflow.com/5e157548d6f7910beea4e2d6/6304a2578abd315b18c8f6e9_twitter-logo.png"
                 },
                 {
                     tabId: 4,
-                    projectName: 'Not Yet',
-                    tabName: 'games',
+                    projectName: 'On the way...',
+                    tabName: 'Games',
                     url: "#0",
                     thumbnail: "https://images.all-free-download.com/images/graphiclarge/error_404_page_not_found_6845510.jpg"
                 },

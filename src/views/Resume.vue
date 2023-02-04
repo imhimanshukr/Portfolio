@@ -57,59 +57,59 @@ export default {
                 },
                 {
                     skillName: "css",
-                    skillPercentage: "70"
-                },
-                {
-                    skillName: "javascript",
-                    skillPercentage: "65"
-                },
-                {
-                    skillName: "bootstrap",
                     skillPercentage: "85"
                 },
                 {
-                    skillName: "React js",
-                    skillPercentage: "60"
-                },
-                {
-                    skillName: "Vue js",
+                    skillName: "javascript",
                     skillPercentage: "70"
                 },
                 {
-                    skillName: "Tailwind css",
-                    skillPercentage: "65"
+                    skillName: "bootstrap",
+                    skillPercentage: "80"
                 },
+                // {
+                //     skillName: "React js",
+                //     skillPercentage: "60"
+                // },
+                {
+                    skillName: "Vue js",
+                    skillPercentage: "75"
+                },
+                // {
+                //     skillName: "Tailwind css",
+                //     skillPercentage: "65"
+                // },
             ],
             experience: [{
                     duration: "Apr 2022 - Present",
-                    position: "Frontend developer trainee",
+                    position: "Frontend developer",
                     companyName: "Speedlabs",
-                    para: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit",
+                    // para: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit",
                 },
                 {
-                    duration: "Oct 2021 - Dec 2021",
+                    duration: "Dec 2021 - Feb 2021",
                     position: "Web Designer intern",
                     companyName: "KmvSoftwares pvt LTD",
-                    para: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit"
+                    // para: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit"
                 },
             ],
             education: [{
                     year: "2021",
                     educationName: "BACHELOR DEGREE",
                     orgName: "RAJSTHAN TECHNICAL UNIVERSITY",
-                    para: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit",
+                    // para: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit",
                 },
                 {
                     year: "2017",
                     educationName: "INTERMEDIATE",
                     orgName: "M.L.S.M COLLEGE",
-                    para: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit"
+                    // para: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit"
                 },
                 {
                     year: "2015",
                     educationName: "MATRICULATION",
                     orgName: "JESUS & MARY ACADEMY",
-                    para: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit"
+                    // para: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit"
                 },
             ],
         }

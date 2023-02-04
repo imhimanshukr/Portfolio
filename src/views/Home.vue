@@ -2,11 +2,11 @@
 <div class="bg-main-white dark:bg-main-dark w-full h-screen text-para-clr dark:text-white flex justify-center items-center md:pl-10" :class="isDark ? '' : 'dark'">
     <div class="text-center z-10 :py-12 md:px-20">
         <h1 class="text-7xl text-main-dark dark:text-white myName mb-4">Hi, I am <span class="text-main-green dark:text-main-yellow">Himanshu Kumar</span></h1>
-        <p class="text-para-clr dark:text-gray-400 text-xl">I am a frontend web developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations.</p>
+        <p class="text-para-clr dark:text-gray-400 text-xl">I'm a passionate front-end developer, delivering clean code and visually appealing designs. Proficient in HTML, CSS, JavaScript, Vue js. Focused on dynamic user experiences, constant improvement, and staying current with industry trends.</p>
         <div class="mt-5">
         <a href="https://www.linkedin.com/in/himanshu2572000" target="_blank" class="mx-3"><i class="fa-brands fa-linkedin-in border-2 p-3 rounded-full bg-transparent border-para-clr dark:border-gray-400 text-para-clr dark:text-gray-400 hover:text-main-green dark:hover:text-main-yellow hover:border-main-green dark:hover:border-main-yellow"></i></a>
         <a href="https://github.com/imhimanshukr" target="_blank" class="mx-3"><i class="fa-brands fa-github border-2 p-3 rounded-full bg-transparent border-para-clr dark:border-gray-400 text-para-clr dark:text-gray-400 hover:text-main-green dark:hover:text-main-yellow hover:border-main-green dark:hover:border-main-yellow"></i></a>
-        <a href="https://www.instagram.com/hms.raj/" target="_blank" class="mx-3"><i class="fa-brands fa-instagram border-2 p-3 rounded-full bg-transparent border-para-clr dark:border-gray-400 text-para-clr dark:text-gray-400 hover:text-main-green dark:hover:text-main-yellow hover:border-main-green dark:hover:border-main-yellow"></i></a>
+        <!-- <a href="https://www.instagram.com/hms.raj/" target="_blank" class="mx-3"><i class="fa-brands fa-instagram border-2 p-3 rounded-full bg-transparent border-para-clr dark:border-gray-400 text-para-clr dark:text-gray-400 hover:text-main-green dark:hover:text-main-yellow hover:border-main-green dark:hover:border-main-yellow"></i></a> -->
         </div>
     </div>
 </div>
