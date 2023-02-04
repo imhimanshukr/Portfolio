@@ -22,7 +22,8 @@
                         <h2 class="text-para-clr dark:text-gray-300 pb-4">Languages: <span class="text-para-clr dark:text-white">Hindi, English</span></h2>
                     </div>
                 </div>
-                <a class="download-btn-light dark:download-btn-dark" href="./HimanshuKumar.pdf" download><span class="btn-text text-para-clr dark:text-white">download cv</span> <span class="download-icon-light dark:download-icon-dark"> <i class="fa-solid fa-download"></i></span> </a>
+                <!-- <a class="download-btn-light dark:download-btn-dark" href="./HimanshuKumar.pdf" download><span class="btn-text text-para-clr dark:text-white">download cv</span> <span class="download-icon-light dark:download-icon-dark"> <i class="fa-solid fa-download"></i></span> </a> -->
+                <button class="download-btn-light dark:download-btn-dark" @click="downloadPDF"><span class="btn-text text-para-clr dark:text-white">download cv</span> <span class="download-icon-light dark:download-icon-dark"> <i class="fa-solid fa-download"></i></span> </button>
             </div>
         </div>
     </div>
@@ -40,6 +41,7 @@
 </template>
 
 <script>
+import axios from 'axios';
 export default {
     data() {
         return {
@@ -65,16 +67,23 @@ export default {
             isDark: Boolean
         },
         methods:{
-        //     async downloadCV() {
-        //         debugger;
-        //     // if (url !== "") {
-        //         const response = await fetch('https://himanshu-kumar.tiiny.site/');
-        //         const pdfBlob = await response.blob();
-        //         const link = document.createElement('a');
-        //         link.href = URL.createObjectURL(pdfBlob);
-        //         link.download = 'file.pdf';
-        //         link.click();
-        // },
+            async downloadPDF() {
+      try {
+        const response = await axios({
+          url: './HimanshuKumar.pdf',
+          method: 'GET',
+          responseType: 'blob',
+        });
+  
+        const link = document.createElement('a');
+        link.href = URL.createObjectURL(new Blob([response.data]));
+        link.setAttribute('download', 'HimanshuKumar.pdf');
+        document.body.appendChild(link);
+        link.click();
+      } catch (error) {
+        console.error(error);
+      }
+    },
         }
 }
 </script>
