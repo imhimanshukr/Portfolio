@@ -22,7 +22,8 @@
                         <h2 class="text-para-clr dark:text-gray-300 pb-4">Languages: <span class="text-para-clr dark:text-white">Hindi, English</span></h2>
                     </div>
                 </div>
-                <button class="download-btn-light dark:download-btn-dark" @click="downloadPDF"><span class="btn-text text-para-clr dark:text-white">download cv</span> <span class="download-icon-light dark:download-icon-dark"> <i class="fa-solid fa-download"></i></span> </button>
+                <!-- <button class="download-btn-light dark:download-btn-dark" @click="downloadPDF"><span class="btn-text text-para-clr dark:text-white">download cv</span> <span class="download-icon-light dark:download-icon-dark"> <i class="fa-solid fa-download"></i></span> </button> -->
+                <a class="download-btn-light dark:download-btn-dark" href="../../Himanshu Kumar.pdf" download><span class="btn-text text-para-clr dark:text-white">download cv</span> <span class="download-icon-light dark:download-icon-dark"> <i class="fa-solid fa-download"></i></span> </a>
             </div>
         </div>
     </div>
@@ -83,24 +84,24 @@ export default {
     //     console.error(error);
     //   }
     // },
-    async downloadPDF() {
-  try {
-    const response = await fetch("../../Himanshu Kumar.pdf", {
-      method: "GET",
-      mode: "cors"
-    });
+//     async downloadPDF() {
+//   try {
+//     const response = await fetch("../../Himanshu Kumar.pdf", {
+//       method: "GET",
+//       mode: "cors"
+//     });
 
-    if (!response.ok) {
-      throw new Error("Failed to fetch PDF file");
-    }
+//     if (!response.ok) {
+//       throw new Error("Failed to fetch PDF file");
+//     }
 
-    const pdfBlob = await response.blob();
-    const pdfUrl = URL.createObjectURL(pdfBlob);
-    window.open(pdfUrl);
-  } catch (error) {
-    console.error(error);
-  }
-}
+//     const pdfBlob = await response.blob();
+//     const pdfUrl = URL.createObjectURL(pdfBlob);
+//     window.open(pdfUrl);
+//   } catch (error) {
+//     console.error(error);
+//   }
+// }
 
         }
 }
