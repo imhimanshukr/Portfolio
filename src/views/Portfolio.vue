@@ -43,7 +43,22 @@ export default {
             //         tabName: 'games'
             //     },
             // ],
-            projectDetail: [{
+            projectDetail: [
+                {
+                    tabId: 3,
+                    tabName: "Vue Js",
+                    projectName: 'LangLift',
+                    url: "https://langlift.netlify.app/",
+                    thumbnail: "https://cdn.hswstatic.com/gif/dictionary.jpg"
+                },
+                {
+                    tabId: 3,
+                    tabName: "Vue Js",
+                    projectName: 'SkyGuru',
+                    url: "https://skyguru.netlify.app/",
+                    thumbnail: "https://townsquare.media/site/385/files/2016/05/grey-sky-above-the-trees.jpg?w=980&q=75"
+                },
+                {
                     tabId: 1,
                     tabName: "Templates",
                     projectName: 'Hospital',

@@ -67,21 +67,32 @@ export default {
                     skillName: "bootstrap",
                     skillPercentage: "80"
                 },
-                // {
-                //     skillName: "React js",
-                //     skillPercentage: "60"
-                // },
                 {
                     skillName: "Vue js",
+                    skillPercentage: "85"
+                },
+                {
+                    skillName: "Vuetify",
                     skillPercentage: "75"
                 },
-                // {
-                //     skillName: "Tailwind css",
-                //     skillPercentage: "65"
-                // },
+                {
+                    skillName: "React js",
+                    skillPercentage: "60"
+                },
+                {
+                    skillName: "Tailwind css",
+                    skillPercentage: "65"
+                },
             ],
-            experience: [{
-                    duration: "Apr 2022 - Present",
+            experience: [
+                {
+                    duration: "Mar 2023 - Present",
+                    position: "Software Engineer",
+                    companyName: "Iorta Technology Solutions",
+                    // para: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit",
+                },
+                {
+                    duration: "Apr 2022 - Feb 2023",
                     position: "Frontend developer",
                     companyName: "Speedlabs",
                     // para: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit",
